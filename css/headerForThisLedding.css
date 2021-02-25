@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#block-body{
+    width: 1035px;
+    height: auto;
+    margin: 5px auto;
+}
+
+header{
+    width: 1000px;
+    height: 50px;
+    background-color: #515151;
+}
+
+.logo{
+    width: 200px;
+    float: left;
+}
+
+.logo a{
+    display: block;
+    margin-left: 13px;
+    margin-top: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #f2e9e4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.use{
+    color: #f2e9e4;
+}
+
+.web{
+    color: #f2e9e4;
+}
+
+.logo p{
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 13px;
+    color: #c9ada7;
+}
+
+.top-menu{
+    width: 685px;
+    float: left;
+}
+
+.top-menu ul li{
+    list-style: none;
+    float: left;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.top-menu ul li a{
+    display: block;
+    width: 89px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    color: white;
+    padding-top: 14px;
+    cursor: pointer;
+}
+
+.top-menu ul li a:hover{
+    transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+    color: #f2e9e4;
+}
+
+.block-top-name{
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+}
+
+.block-top-name p{
+    margin-top: 5px;
+    text-align: center;
+    color: #f2e9e4;
+    font-family: 'Josefin Sans', sans-serif;
+}

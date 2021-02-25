@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "css/styles.css">
+    <link rel = "stylesheet" href = "css/headerForThisLedding.css">
+    <link href = "fonts/PermanentMarker.ttf" rel = "stylesheet">
+    <link href = "fonts/JosefinSans-Italic-VariableFont_wght.ttf" rel = "stylesheet">
+    <link href = "https://fonts.googleapis.com/css?family=Pridi&display=swap" rel = "stylesheet">
+    <title> JS-SCHOOL </title>
+</head>
+<body>
+    <div id = "block-body">
+        <header>
+            <div class = "logo">
+                <a href = "index.html">
+                    <span class = "use">JS</span>-<span class = "web">SCHOOL</span>.RU
+                </a>
+            </div>
+            <div class = "top-menu">
+                <ul>
+                    <li><a href = "#triangle"> Треугольник </a></li>
+                    <li><a href = "#comparisons"> Строки </a></li>
+                    <li><a href = "#array"> Массив </a></li>
+                    <li><a href = "#timer"> Таймер </a></li>
+                    <li><a href = "#question"> Вопросы </a></li>
+                    <li><a href = "#finalPage"> Заставка </a></li>
+                </ul>
+            </div>
+            <div class = "block-top-name">
+                <p id = "nameOfUser"> Ваше имя </p>
+            </div>
+        </header>
+    </div>
+
+    <div id = "aboutJS">
+        <div class = "information-about-js">
+            <p style = "text-indent: 1.5em;" id = "JSS"> JS-SCHOOL приветствует тебя! Прочитай небольшое вступление о JavaScript и введи свое имя. </p>
+            <p style = "text-indent: 1.5em;" id = "JSL">
+                JavaScript — это полноценный динамический язык программирования, который применяется к HTML документу, 
+                и может обеспечить динамическую интерактивность на веб-сайтах. Так же 
+                JavaScript позволяет создавать динамически обновляемый контент, управляет мультимедиа, анимирует изображения. 
+                Если раньше JavaScript был медленным и неразвитым ЯП, сейчас же это огромная технология, что используется на 97% сайтах! </p>
+            <!--<img src = "img/js.png" id = "image" alt = "JS">-->
+        </div>
+        <div class = "enter-your-name">
+            <input type = "text" name = "you-name" id = "h" maxlength = "10" placeholder = "Ваше имя">
+            <button id = "enterName"> Ввести </button>
+        </div>
+    </div>
+
+    <div class = "triangleTitle"><a name = "triangle"><h2> Нахождение площади через высоту и основание треугольника </h2></a></div>
+    <h2 id = "restri"> Здесь будет результат :3 </h2>
+    <div class = "triangle">
+        <input type = "text" name = "heightOfTheTriangle" id = "height" placeholder = "Высота">
+        <input type = "text" name = "theBaseOfTheTriangle" id = "a" placeholder = "Основание">
+        <button id = "areaThisTriangle"> Ввести значения </button>
+    </div>
+
+    <div class = "comparisonsTitle"><a name = "comparisons"><h2> Сравнение строк по символам </h2></a></div>
+    <h2 id = "rescom"> Здесь будет результат :3 </h2>
+    <div class = "comparisons">
+        <input type = "text" name = "sf" id = "s1" placeholder = "Первая строка">
+        <input type = "text" name = "ss" id = "s2" placeholder = "Вторая строка">
+        <button id = "strings"> Ввести значения </button>
+    </div>
+
+    <div class = "arrayTitle"><a name = "array"><h2> Введите массив из пяти элементов </h2></a></div>
+    <h2 id = "whatInsideTheArray"> Элементы массива: ... </h2>
+    <h2 id = "resarr1"> Минимальное значение массива: ... </h2>
+    <h2 id = "resarr2"> Максимальное значение массива: ... </h2>
+    <div class = "array">
+        <button id = "mm"> Ввести значения </button>
+    </div>
+
+    <div class = "timer"><a name = "timer"><h2> Таймер </h2><p></a></div>
+    <h2 id = "restim"> Таймер: &nbsp; <span id = "showmns"> 00 </span> : <span id = "showscs"> 00 </span></h2><div>
+    <div class = "click">
+        <input type = "text" id = "mns" name = "mns" size = "15" style = "margin-right: -3.5px;" maxlength = "2" placeholder = "Минуты"/> &nbsp; &nbsp; 
+        <input type = "text" id = "scs" name = "scs" size = "15" style = "margin-right: 10px;" maxlength = "2" placeholder = "Секунды"/><br/>
+        <button type = "text" id = "btnct" style = "margin-right: 10px;"> Начать отсчёт </button> 
+        <button type = "text" id = "btnct_res" style = "margin-right: 10px;"> Начать отсчёт заново </button> 
+        <button type = "text" id = "btnct_end" style = "margin-right: 10px;"> Сбросить </button>
+    </div>
+
+    <div class = "question"><a name = "question"><h2> Вопросы по JS </h2></a></div>
+    <div class = "questions">
+        <h2 id = "test_status"></h2>
+        <div id = "test"></div>
+    </div>
+
+    <div id = "footer">
+        <div id = "finalPage"><h1> Заставка </h1>
+            <div class = "page">
+                <button><a href = "screensaver.html"> Заставка </a></button>
+            </div>
+        </div>
+        <div> &copy; JS-SCHOOL.RU </div>
+    </div>
+
+    <script src = "js/greeting.js"></script>
+    <script src = "js/triangle.js"></script>
+    <script src = "js/stringComparison.js"></script>
+    <script src = "js/array.js"></script>
+    <script src = "js/timer.js"></script>
+    <script src = "js/test.js"></script>
+</body>
+</html>

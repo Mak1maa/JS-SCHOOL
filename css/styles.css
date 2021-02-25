@@ -1,0 +1,333 @@
+html{
+    scroll-behavior: smooth; /* Плавный скролл */
+}
+
+body{
+    background-color: #515151;
+}
+
+input[type = text]{
+    padding: 10px;
+    border: 0;
+    box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+button{
+    padding: 10px;
+    border: 0;
+    box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+}
+
+a[name]{
+    padding-top: 40px;
+    margin-top: -40px;
+    display: inline-block;
+}
+
+.triangle button{
+    margin-top: 250px;
+    margin-bottom: 60px;
+}
+
+.triangle input{
+    margin-top: 250px;
+    margin-bottom: 60px;
+}
+
+.comparisons button{
+    margin-top: 250px;
+    margin-bottom: 60px;
+}
+
+.comparisons input{
+    margin-top: 250px;
+    margin-bottom: 60px;
+}
+
+.array button{
+    margin-top: 215px;
+    margin-bottom: 60px;
+}
+
+.array input{
+    margin-top: 215px;
+    margin-bottom: 60px;
+}
+
+.click button{
+    margin-top: 250px;
+    margin-bottom: 65px;
+}
+
+.click input{
+    margin-top: 250px;
+    margin-bottom: 65px;
+}
+
+.questions button{
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+#rescom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #f2e9e4;
+    color: #515151;
+    padding-top: 240px;
+}
+
+#restri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #515151;
+    color: #f2e9e4;
+    padding-top: 240px;
+}
+
+#restim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #f2e9e4;
+    color: #515151;
+    padding-top: 240px;
+}
+
+#aboutJS{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    background-color: #f2e9e4;
+}
+
+#resarr1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f2e9e4;
+    padding-top: 20px;
+}
+
+#resarr2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f2e9e4;
+    padding-top: 20px;
+}
+
+#whatInsideTheArray{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f2e9e4;
+    padding-top: 185px;
+}
+
+#finalPage{
+    background-color: #f2e9e4;
+}
+
+#finalPage h1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 105px;
+}
+
+.page{
+    padding: 100px 100px 100px 100px;
+}
+
+.information-about-js{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0fr;
+    font-size: 15px;
+    line-height: 23px;
+    padding: 150px 0px 0px 200px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#JSS{
+    color: #515151;
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-align: justify;
+}
+
+#JSL{
+    color: #515151;
+    grid-column: 1;
+    grid-row: 2;
+    margin-bottom: 4px;
+    text-align: justify;
+}
+
+.enter-your-name{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    padding: 0px 100px 285px 200px;
+}
+
+.timer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #515151;
+    padding-top: 50px;
+    background-color: #f2e9e4;
+}
+
+.click{
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #f2e9e4;
+}
+
+.triangle{
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #515151;
+    text-align: center;
+    color: #f2e9e4;
+    font-size: 20px;
+}
+
+.triangleTitle{
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #515151;
+    text-align: center;
+    color: #f2e9e4;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.comparisons{
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: #515151;
+    font-size: 18px;
+    background-color: #f2e9e4;
+}
+
+.comparisonsTitle{
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: #515151;
+    font-size: 20px;
+    background-color: #f2e9e4;
+    padding-top: 50px;
+}
+
+.array{
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: #f2e9e4;
+    font-size: 18px;
+}
+
+.arrayTitle{
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: #f2e9e4;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.question{
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: #f2e9e4;
+    font-size: 20px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.questions{
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f2e9e4;
+    font-size: 15px;
+    grid-column-gap: 40px;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+.page a{
+    color: #515151;
+    text-decoration: none;
+}
+
+button a:hover{
+    transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+    color: white;
+}
+  
+button:hover{
+    background-color: #06d6a0;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+#enterName{
+    font-family: 'Roboto', sans-serif;
+    margin-left: -5px;
+    text-align: center;
+}
+
+#footer{
+    left: 0; 
+    bottom: 0;
+    color: #515151;
+    width: 100%;
+}
+
+#footer div{
+    padding: 10px;
+    background: #f2e9e4;
+    font-family: 'Josefin Sans', sans-serif;
+}

@@ -1,0 +1,157 @@
+body{
+    background: #fff;
+    color: white;
+    font: bold 7em Helvetica, sans-serif;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+article{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    border: .05em solid rgba(255, 255, 255, .7);
+    margin: .1em;
+}
+
+.gradient{
+    background: -webkit-radial-gradient(
+        center, ellipse cover,
+        rgba(255,255,255,0.5) 50%,
+        rgba(255,255,255,0.3) 100%
+    );
+    /* Chrome10+, Safari5.1+ */
+
+    height: 100%;
+    left: 0;
+    padding-top: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    -webkit-transition: background 1s;
+    transition: background 1s;
+}
+
+hr{
+    background: rgba(255, 255, 255, .7);
+    border: 0;
+    height: .05em;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 1.2em;
+
+    -webkit-transition: width 1s;
+    transition: width 1s;
+}
+
+#time,
+hr{
+    -webkit-transition: width 1s;
+    transition: width 1s;
+}
+
+#time{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 18px;
+}
+
+a:hover{
+    transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+    color: white;
+}
+
+a{
+    color: #515151;
+    text-decoration: none;
+}
+
+#time p{
+    color: rgba(255, 255, 255, 0);
+    font-size: 40%;
+    font-weight: normal;
+    left: 0;
+    margin: 0;
+    margin-top: .2em;
+    position: relative;
+    text-shadow: none;
+
+    -webkit-transition: all 150ms ease-out;
+    transition: all 150ms ease-out;
+}
+
+#time:hover p{
+    color: rgba(255, 255, 255, .7);
+}
+
+#month{
+    bottom: 0;
+    font-size: 100%;
+    left:0;
+    margin: 0em .15em;
+    position: absolute;
+}
+
+#nameOfUser{
+    top: 0;
+    font-size: 100%;
+    left:0;
+    margin: 0em .15em;
+    position: absolute;
+}
+
+#calendar{
+    bottom:0;
+    right:0;
+    margin: .15em;
+    overflow: hidden;
+    padding:0;
+    position: absolute;
+}
+
+#calendar li{
+    border: 2px solid rgba(255, 255, 255, 0);
+    float: left;
+    font-size: 40%;
+    font-weight: normal;
+    list-style: none;
+    padding: 0em .2em 0em .10em;
+    text-align: right;
+    width: 1em;
+}
+
+#calendar li:empty{
+    height: 1em;
+}
+
+#calendar li.weekend{
+    color: rgba(255, 255, 255, .5);
+}
+
+#calendar li.weekend.end{
+    clear: left;
+}
+
+#calendar li.today {
+    border: 2px solid rgba(255, 255, 255, .7);
+}
+
+.shadow{
+    /* -webkit-background-clip: text; */
+    text-shadow:
+    rgba(0,0,0,0.1) -1px -2px -2px,
+    rgba(0,0,0,0.1) 1px 2px 2px,
+    rgba(0,0,0,0.2) 2px 3px 3px;
+}
